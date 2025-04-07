@@ -50,7 +50,7 @@ Skills
 *	**Programming**: Python, C++, Java, Scala, SQL
 *	**Data & Platforms**: MongoDB, PostgreSQL, Spark, Prometheus, Git, Jupyter
 
-Publications
+Projects
 ======
   <ul>{% for post in site.portfolio reversed %}
     {% include archive-single-cv.html %}
@@ -60,18 +60,6 @@ Publications
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   

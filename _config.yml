@@ -23,64 +23,68 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "Harshal Hirpara"
+  pronouns         : "He/Him"  
+  bio              : "I am a dynamic ML engineer and data scientist relentlessly pushing the boundaries of intelligent systems to solve real-world challenges. Currently pursuing my M.S. in Computer Science at the University of Illinois Chicago, I have mastered deep learning, NLP, computer vision, reinforcement learning, and advanced data science techniques. With a robust command of Python, Java, C++, and Scala, I design scalable AI solutions that transform complex data into actionable insights. My work spans developing real-time ML pipelines, optimizing high-impact NLP tools, and pioneering research in large language model (LLM) alignment—each project driving measurable improvements and groundbreaking innovations in technology."
+  location         : "United States"
+  employer         : "University of Illinois at Chicago"
+  # uri              : #
+  email            : "hhirp@uic.edu" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  # arxiv            : # URL - Update with the correct link to your profile
+  
+  # linkedin         : "https://www.linkedin.com/in/harshaljhirpara"
+  # # github           : "https://github.com/Hjhirp"
+  # medium           : "https://medium.com/@hhirp"
+  googlescholar    : "https://scholar.google.com/citations?user=dqOz0_UAAAAJ&hl=en"
+  # impactstory      : # URL
+  # orcid            : "http://orcid.org/yourorcidurl"
+  # semantic         : # URL
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # researchgate     : # URL
+  # scopus           : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  # bitbucket        : # Username - Update with your username on the site
+  # codepen          : # Username
+  # dribbble         : # Username
+  github           : "Hjhirp"
+  # kaggle           : # Username  
+  # stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+  # bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # facebook         : # Username
+  # flickr           : # Username
+  # foursquare       : # Username
+  # goodreads        : # Username
+  # google_plus      : # Username
+  # keybase          : # Username
+  # instagram        : # Username
+  # lastfm           : # Username
+  linkedin         : "harshaljhirpara"
+  # mastodon         : # URL
+  medium           : "https://medium.com/@hhirp"
+  # pinterest        : # Username
+  # soundcloud       : # Username
+  # steam            : # Username
+  # telegram         : # URL
+  # tumblr           : # Username
+  # twitter          : # Username for X / Twitter
+  # vine             : # Username
+  # weibo            : # Username
+  # wikipedia        : # Username
+  # xing             : # Username
+  # youtube          : # Username
+  # zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  # books:
+  #   title: 'Books'
+  # manuscripts:
+  #   title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
 

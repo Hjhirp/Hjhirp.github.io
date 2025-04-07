@@ -1,46 +1,41 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Harshal Hirpara",
+    "email": "hhirp@uic.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://Hjhirp.github.io",
+    "summary": "I am a dynamic ML engineer and data scientist relentlessly pushing the boundaries of intelligent systems to solve real-world challenges. Currently pursuing my M.S. in Computer Science at the University of Illinois Chicago, I have mastered deep learning, NLP, computer vision, reinforcement learning, and advanced data science techniques. With a robust command of Python, Java, C++, and Scala, I design scalable AI solutions that transform complex data into actionable insights. My work spans developing real-time ML pipelines, optimizing high-impact NLP tools, and pioneering research in large language model (LLM) alignment—each project driving measurable improvements and groundbreaking innovations in technology.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "",
+      "countryCode": "United States",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=dqOz0_UAAAAJ&hl=en"
       },
       {
-        "network": "ORCID",
+        "network": "LinkedIn",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://www.linkedin.com/in/harshaljhirpara"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Hjhirp",
+        "url": "https://github.com/Hjhirp"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
+
+    }
+  ],
+  "education": [
     {
       "institution": "GitHub University",
       "area": "M.S. in Jekyll",

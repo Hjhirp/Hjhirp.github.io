@@ -84,7 +84,7 @@ const ProjectsSection = () => {
                     </a>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#CCD6F6] font-heading mb-2 group-hover:text-[#64FFDA] transition-colors duration-300">
+                <h3 className="text-xl font-bold text-[#CCD6F6] mb-2 group-hover:text-[#64FFDA] transition-colors duration-300">
                   {project.name}
                 </h3>
                 <p className="text-[#8892B0] mb-4">{project.description}</p>

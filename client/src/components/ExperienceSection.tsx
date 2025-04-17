@@ -25,7 +25,7 @@ const ExperienceSection = () => {
                 <div className="bg-[#112240] rounded-lg p-6 shadow-lg border border-[#64FFDA]/10">
                   <div className="flex flex-col md:flex-row justify-between mb-4">
                     <div>
-                      <h3 className="text-xl font-bold text-[#CCD6F6] font-heading">{job.title}</h3>
+                      <h3 className="text-xl font-bold text-[#CCD6F6]">{job.title}</h3>
                       <p className="text-[#64FFDA]">{job.company}</p>
                     </div>
                     <div className="mt-2 md:mt-0">

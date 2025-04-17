@@ -12,10 +12,10 @@ const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
           <div className="lg:w-7/12 order-2 lg:order-1">
             <p className="text-[#64FFDA] font-mono mb-4">Hi, my name is</p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#CCD6F6] font-heading mb-4">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#CCD6F6] mb-4">
               {name}
             </h1>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8892B0] mb-6 font-heading">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8892B0] mb-6">
               Machine Learning Engineer
             </h2>
             <p className="text-[#8892B0] mb-8 text-lg leading-relaxed">

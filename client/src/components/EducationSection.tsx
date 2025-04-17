@@ -16,7 +16,7 @@ const EducationSection = () => {
             <div key={index} className="bg-[#0A192F] rounded-lg p-6 shadow-lg border border-[#64FFDA]/10">
               <div className="flex flex-col md:flex-row justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-bold text-[#CCD6F6] font-heading">{edu.degree}</h3>
+                  <h3 className="text-xl font-bold text-[#CCD6F6]">{edu.degree}</h3>
                   <p className="text-[#64FFDA]">{edu.institution}</p>
                 </div>
                 <div className="mt-2 md:mt-0">

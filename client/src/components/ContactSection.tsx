@@ -56,7 +56,7 @@ const ContactSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Contact Info */}
             <div className="bg-[#112240] rounded-lg p-6 shadow-lg border border-[#64FFDA]/10">
-              <h3 className="text-xl font-bold text-[#CCD6F6] font-heading mb-6">Contact Information</h3>
+              <h3 className="text-xl font-bold text-[#CCD6F6] mb-6">Contact Information</h3>
               
               <div className="space-y-4">
                 <div className="flex items-start">
@@ -140,7 +140,7 @@ const ContactSection = () => {
             
             {/* Contact Form */}
             <div className="bg-[#112240] rounded-lg p-6 shadow-lg border border-[#64FFDA]/10">
-              <h3 className="text-xl font-bold text-[#CCD6F6] font-heading mb-6">Send Me a Message</h3>
+              <h3 className="text-xl font-bold text-[#CCD6F6] mb-6">Send Me a Message</h3>
               
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>

@@ -16,7 +16,7 @@ const SkillsSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {skill_categories.map((category, index) => (
               <div key={index} className="bg-[#112240] rounded-lg p-6 shadow-lg border border-[#64FFDA]/10">
-                <h3 className="text-xl font-bold text-[#CCD6F6] font-heading mb-4 flex items-center">
+                <h3 className="text-xl font-bold text-[#CCD6F6] mb-4 flex items-center">
                   <i className={`fas fa-${category.icon} text-[#64FFDA] mr-2`}></i>
                   {category.name}
                 </h3>

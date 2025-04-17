@@ -22,7 +22,7 @@ const PublicationsSection = () => {
             >
               <div className="flex items-start gap-4">
                 <div className="text-[#64FFDA] text-3xl mt-1">
-                  <i className="fas fa-file-alt"></i>
+                  <i className={`fas fa-${publication.medium_mention ? 'pencil-alt' : 'file-alt'}`}></i>
                 </div>
                 <div className="flex-1">
                   <a 
@@ -31,32 +31,28 @@ const PublicationsSection = () => {
                     rel="noopener noreferrer"
                     className="text-xl font-bold text-[#CCD6F6] mb-2 hover:text-[#64FFDA] transition-colors duration-300 inline-flex items-center gap-2"
                   >
-                    {publication.title}
+                    {publication.title.replace(/\*\*/g, '')}
                     <i className="fas fa-external-link-alt text-sm"></i>
                   </a>
                   
                   <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-2 mt-2 mb-4">
                     <p className="text-[#8892B0]">{publication.authors}</p>
                     <div className="flex items-center gap-2">
+                      {publication.medium_mention && (
+                        <span className="bg-[#0A192F] py-1 px-3 rounded-full text-xs text-[#64FFDA] border border-[#64FFDA]/20">
+                          <i className="fab fa-medium mr-1"></i> Medium
+                        </span>
+                      )}
                       <span className="bg-[#64FFDA]/10 text-[#64FFDA] py-1 px-3 rounded-full text-sm">
-                        {publication.conference}
-                      </span>
-                      <span className="bg-[#0A192F] py-1 px-3 rounded-full text-sm text-[#8892B0]">
-                        {publication.year}
+                        {publication.date}
                       </span>
                     </div>
                   </div>
                   
                   <div className="mt-4">
-                    <details className="group">
-                      <summary className="cursor-pointer text-[#CCD6F6] font-medium flex items-center">
-                        <span>Abstract</span>
-                        <i className="fas fa-chevron-down ml-2 group-open:rotate-180 transition-transform duration-300"></i>
-                      </summary>
-                      <p className="mt-2 text-[#8892B0] pl-4 border-l-2 border-[#64FFDA]/30">
-                        {publication.abstract}
-                      </p>
-                    </details>
+                    <p className="text-[#8892B0] pl-4 border-l-2 border-[#64FFDA]/30">
+                      {publication.details}
+                    </p>
                   </div>
                 </div>
               </div>

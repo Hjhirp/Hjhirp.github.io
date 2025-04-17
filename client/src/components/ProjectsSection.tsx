@@ -64,26 +64,15 @@ const ProjectsSection = () => {
               data-category={project.category?.join(' ')}
             >
               <div className="p-6">
-                <div className="flex justify-between items-start mb-4">
-                  <div className="w-12 h-12 rounded-full bg-[#112240] flex items-center justify-center border border-[#64FFDA]/20">
-                    <i className={`fas fa-${project.icon || 'code'} text-[#64FFDA] text-xl`}></i>
+                <div className="flex justify-center items-center mb-6">
+                  <div className="w-20 h-20 rounded-full bg-[#112240] flex items-center justify-center border-2 border-[#64FFDA]/30 shadow-lg shadow-[#64FFDA]/10">
+                    <i className={`fas fa-${project.icon || 'code'} text-[#64FFDA] text-3xl`}></i>
                   </div>
-                  <div className="flex gap-2">
-                    <a 
-                      href="#" 
-                      className="text-[#CCD6F6] hover:text-[#64FFDA] transition-colors duration-300 w-8 h-8 rounded-full bg-[#112240]/50 flex items-center justify-center hover:bg-[#112240]" 
-                      aria-label="View project repository"
-                    >
-                      <i className="fab fa-github"></i>
-                    </a>
-                    <a 
-                      href="#" 
-                      className="text-[#CCD6F6] hover:text-[#64FFDA] transition-colors duration-300 w-8 h-8 rounded-full bg-[#112240]/50 flex items-center justify-center hover:bg-[#112240]" 
-                      aria-label="View live demo"
-                    >
-                      <i className="fas fa-external-link-alt"></i>
-                    </a>
-                  </div>
+                </div>
+                
+                {/* Project image placeholder - will be replaced with actual images */}
+                <div className="mb-6 rounded-md overflow-hidden border border-[#64FFDA]/10 bg-[#0A192F]/50 h-48 flex items-center justify-center">
+                  <i className="fas fa-image text-4xl text-[#64FFDA]/30"></i>
                 </div>
                 <h3 className="text-xl font-bold text-[#CCD6F6] mb-2 group-hover:text-[#64FFDA] transition-colors duration-300 mt-4">
                   {project.name}

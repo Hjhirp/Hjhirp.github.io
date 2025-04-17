@@ -363,28 +363,26 @@ When I'm not immersed in machine learning, you'll likely find me playing tennis,
   
   publications: [
     {
-      title: "Guided Policy Gradient for Dynamic Treatment Plan Prediction with Symptom Burden Minimization in Head and Neck Cancer",
-      authors: "Harshal Hirpara, John Doe, Jane Smith",
-      conference: "Conference on Neural Information Processing Systems (NeurIPS)",
-      year: "2024",
-      link: "https://arxiv.org/abs/123.456",
-      abstract: "In this paper, we propose a novel approach for predicting dynamic treatment plans for head and neck cancer patients using guided policy gradient methods. Our approach incorporates symptom burden minimization as a key objective."
+      title: "Automated Seizure Detection in Ambulatory EEG",
+      authors: "Harshal Hirpara, Anna Serafini, Huan Huynh, Biswajit Maharathi",
+      date: "Dec 2024",
+      link: "https://aesnet.org/abstractslisting/automated-seizure-detection-in-ambulatory-eeg",
+      details: "Developed an aEEG seizure detection system using XGBoost, CatBoost, and LightGBM ensemble, achieving 99% accuracy, 88% sensitivity."
     },
     {
-      title: "A Comprehensive Study of LLM-powered AI Agents",
-      authors: "Harshal Hirpara, Alice Johnson, Robert Brown",
-      conference: "International Conference on Machine Learning (ICML)",
-      year: "2023",
-      link: "https://arxiv.org/abs/789.123",
-      abstract: "We present a detailed analysis of AI agents powered by large language models, focusing on their decision-making capabilities and potential biases in various game-based scenarios."
+      title: "Capacity Estimation of Li-Ion Battery Cells Using Deep Neural Networks",
+      authors: "Harshal Hirpara, Shail Shah, Zunnun Narmawala, Jaiprakash Verma",
+      date: "Oct 2024",
+      link: "https://link.springer.com/chapter/10.1007/978-981-97-6710-6_36",
+      details: "Leveraged LSTM models for battery capacity and life estimation under real-world conditions, achieving 0.0067 RMSE loss with statistical preprocessing."
     },
     {
-      title: "SCIPASUMM: End-to-End Research Paper Summarization with NLP Techniques",
-      authors: "Harshal Hirpara, Michael Lee, Sarah Wilson",
-      conference: "Association for Computational Linguistics (ACL)",
-      year: "2023",
-      link: "https://arxiv.org/abs/456.789",
-      abstract: "This paper introduces SCIPASUMM, an end-to-end pipeline for summarizing scientific research papers using advanced NLP techniques including Bart-ls models and custom attention mechanisms."
+      title: "Exploring Large Language Models: Concepts, Alignment Techniques, And Practical Implementation",
+      authors: "Harshal Hirpara",
+      date: "Oct 2024",
+      link: "https://medium.com/@hhirp/exploring-large-language-models-concepts-alignment-techniques-and-practical-implementation-8279aaa2f91f",
+      details: "Implemented and documented training and alignment techniques for LLMs, including LoRA, QLoRA, RLHF, DPO, KTO, and ORPO. This article delves into training methods for large language models and alignment techniques, including practical implementations of LoRA, QLoRA, and RLHF.",
+      medium_mention: "This was also mentioned as a recent Medium article."
     }
   ],
   

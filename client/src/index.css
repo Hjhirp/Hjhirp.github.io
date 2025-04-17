@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 217 73% 12%;
+    --foreground: 217 16% 63%;
+    
+    --card: 224 30% 16%;
+    --card-foreground: 217 16% 63%;
+    
+    --popover: 224 30% 16%;
+    --popover-foreground: 217 16% 63%;
+    
+    --primary: 217 73% 12%;
+    --primary-foreground: 217 16% 63%;
+    
+    --secondary: 224 30% 16%;
+    --secondary-foreground: 217 16% 63%;
+    
+    --muted: 224 30% 16%;
+    --muted-foreground: 217 16% 63%;
+    
+    --accent: 174 100% 70%;
+    --accent-foreground: 210 40% 98%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 174 100% 70%;
+    
+    --dark: 222 86% 5%;
+    --text-light: 218 31% 85%;
+    
+    --radius: 0.5rem;
+  }
+  
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-[#0A192F] text-[#8892B0] font-sans;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl font-bold text-[#CCD6F6] font-medium mb-2;
+  }
+  
+  .section-divider {
+    @apply w-24 h-1 bg-[#64FFDA] mx-auto rounded-full;
+  }
+  
+  .btn-primary {
+    @apply bg-transparent hover:bg-[#64FFDA] hover:bg-opacity-10 text-[#64FFDA] px-6 py-3 rounded-md border border-[#64FFDA] transition-all duration-300 inline-flex items-center gap-2;
+  }
+  
+  .btn-secondary {
+    @apply bg-[#64FFDA] bg-opacity-10 hover:bg-opacity-20 text-[#64FFDA] px-6 py-3 rounded-md transition-all duration-300;
+  }
+  
+  .tech-tag {
+    @apply bg-[#0A192F] py-1 px-3 rounded-full text-xs text-[#64FFDA];
+  }
+  
+  .progress-bar {
+    @apply w-full bg-[#0A192F] rounded-full h-2;
+  }
+  
+  .progress-value {
+    @apply bg-[#64FFDA] rounded-full h-2;
+  }
+  
+  .card {
+    @apply bg-[#112240] rounded-lg p-6 shadow-lg border border-[#64FFDA]/10;
+  }
+}
+
+.filter-btn.active {
+  @apply bg-[#64FFDA] text-[#0A192F];
+}
+
+.filter-btn:not(.active) {
+  @apply bg-[#64FFDA]/10 text-[#64FFDA] hover:bg-[#64FFDA]/20;
+}

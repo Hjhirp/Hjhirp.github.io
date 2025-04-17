@@ -5,6 +5,7 @@ import ExperienceSection from "./components/ExperienceSection";
 import ProjectsSection from "./components/ProjectsSection";
 import SkillsSection from "./components/SkillsSection";
 import EducationSection from "./components/EducationSection";
+import PublicationsSection from "./components/PublicationsSection";
 import ContactSection from "./components/ContactSection";
 import { useEffect, useState } from "react";
 
@@ -40,6 +41,7 @@ function App() {
         <ProjectsSection />
         <SkillsSection />
         <EducationSection />
+        <PublicationsSection />
         <ContactSection />
       </Layout>
 

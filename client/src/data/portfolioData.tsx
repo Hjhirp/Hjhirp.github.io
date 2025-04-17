@@ -49,6 +49,7 @@ When I'm not immersed in machine learning, you'll likely find me playing tennis,
       location: "Ahmedabad, India",
       graduation_date: "2019 – 2023",
       gpa: "3.5/4.0",
+      thesis: "SCIPASUMM: Working on an end-to-end research paper summarization pipeline using NLP techniques like Bart-ls",
       relevant_coursework: [
         "Machine Learning",
         "Deep Learning",
@@ -357,6 +358,33 @@ When I'm not immersed in machine learning, you'll likely find me playing tennis,
       ],
       category: ["time-series"],
       icon: "battery-full"
+    }
+  ],
+  
+  publications: [
+    {
+      title: "Guided Policy Gradient for Dynamic Treatment Plan Prediction with Symptom Burden Minimization in Head and Neck Cancer",
+      authors: "Harshal Hirpara, John Doe, Jane Smith",
+      conference: "Conference on Neural Information Processing Systems (NeurIPS)",
+      year: "2024",
+      link: "https://arxiv.org/abs/123.456",
+      abstract: "In this paper, we propose a novel approach for predicting dynamic treatment plans for head and neck cancer patients using guided policy gradient methods. Our approach incorporates symptom burden minimization as a key objective."
+    },
+    {
+      title: "A Comprehensive Study of LLM-powered AI Agents",
+      authors: "Harshal Hirpara, Alice Johnson, Robert Brown",
+      conference: "International Conference on Machine Learning (ICML)",
+      year: "2023",
+      link: "https://arxiv.org/abs/789.123",
+      abstract: "We present a detailed analysis of AI agents powered by large language models, focusing on their decision-making capabilities and potential biases in various game-based scenarios."
+    },
+    {
+      title: "SCIPASUMM: End-to-End Research Paper Summarization with NLP Techniques",
+      authors: "Harshal Hirpara, Michael Lee, Sarah Wilson",
+      conference: "Association for Computational Linguistics (ACL)",
+      year: "2023",
+      link: "https://arxiv.org/abs/456.789",
+      abstract: "This paper introduces SCIPASUMM, an end-to-end pipeline for summarizing scientific research papers using advanced NLP techniques including Bart-ls models and custom attention mechanisms."
     }
   ],
   

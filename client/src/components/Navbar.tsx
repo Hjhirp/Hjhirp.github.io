@@ -49,7 +49,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            {["about", "experience", "projects", "skills", "education", "contact"].map(
+            {["about", "experience", "projects", "skills", "education", "publications", "contact"].map(
               (section) => (
                 <a
                   key={section}
@@ -84,7 +84,7 @@ const Navbar = () => {
         } md:hidden bg-[#112240] border-t border-[#64FFDA]/10 transition-all duration-300`}
       >
         <div className="container mx-auto px-4 py-3 flex flex-col space-y-3">
-          {["about", "experience", "projects", "skills", "education", "contact"].map(
+          {["about", "experience", "projects", "skills", "education", "publications", "contact"].map(
             (section) => (
               <a
                 key={section}

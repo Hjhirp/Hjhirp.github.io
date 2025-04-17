@@ -43,12 +43,13 @@ const ProjectsSection = () => {
             {projectCategories.map(category => (
               <button
                 key={category.id}
-                className={`filter-btn py-2 px-4 rounded-md text-sm font-medium transition-colors duration-300 ${
+                className={`filter-btn ${
                   activeFilter === category.id ? 'active' : ''
                 }`}
                 onClick={() => handleFilterClick(category.id)}
               >
-                {category.name}
+                <i className={`fas fa-${category.icon}`}></i>
+                <span>{category.name}</span>
               </button>
             ))}
           </div>
@@ -101,8 +102,9 @@ const ProjectsSection = () => {
                       {project.category.map((cat, catIndex) => {
                         const category = projectCategories.find(c => c.id === cat);
                         return (
-                          <span key={catIndex} className="bg-[#0A192F] py-1 px-2 rounded-full text-xs text-[#8892B0] border border-[#8892B0]/20">
-                            {category?.name || cat}
+                          <span key={catIndex} className="bg-[#0A192F] py-1 px-2 rounded-full text-xs text-[#8892B0] border border-[#8892B0]/20 flex items-center gap-1">
+                            {category?.icon && <i className={`fas fa-${category.icon} text-[#64FFDA]/60`}></i>}
+                            <span>{category?.name || cat}</span>
                           </span>
                         );
                       })}

@@ -437,11 +437,11 @@ When I'm not immersed in machine learning, you'll likely find me playing tennis,
 };
 
 export const projectCategories = [
-  { id: "all", name: "All" },
-  { id: "nlp", name: "NLP" },
-  { id: "computer-vision", name: "Computer Vision" },
-  { id: "reinforcement-learning", name: "Reinforcement Learning" },
-  { id: "healthcare", name: "Healthcare" },
-  { id: "distributed-systems", name: "Distributed Systems" },
-  { id: "time-series", name: "Time Series" }
+  { id: "all", name: "All", icon: "th-large" },
+  { id: "nlp", name: "NLP", icon: "language" },
+  { id: "computer-vision", name: "Computer Vision", icon: "eye" },
+  { id: "reinforcement-learning", name: "Reinforcement Learning", icon: "brain" },
+  { id: "healthcare", name: "Healthcare", icon: "heartbeat" },
+  { id: "distributed-systems", name: "Distributed Systems", icon: "network-wired" },
+  { id: "time-series", name: "Time Series", icon: "chart-line" }
 ];

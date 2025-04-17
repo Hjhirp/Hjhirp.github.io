@@ -51,6 +51,22 @@
       margin-bottom: 1rem;
     }
   </style>
+  <!-- GitHub Pages SPA Router - Auto-redirects to home page -->
+  <script>
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    (function(l) {
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) { 
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
 </head>
 <body>
   <div class="container">
@@ -60,5 +76,6 @@
     <p>The page you're looking for seems to have been misplaced in the ML algorithm.</p>
     <a href="/">Return to Homepage</a>
   </div>
+  <script src="/404.js"></script>
 </body>
 </html>

@@ -64,37 +64,51 @@ const ProjectsSection = () => {
             >
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
-                  <div>
+                  <div className="w-12 h-12 rounded-full bg-[#112240] flex items-center justify-center border border-[#64FFDA]/20">
                     <i className={`fas fa-${project.icon || 'code'} text-[#64FFDA] text-xl`}></i>
                   </div>
                   <div className="flex gap-2">
                     <a 
                       href="#" 
-                      className="text-[#CCD6F6] hover:text-[#64FFDA] transition-colors duration-300" 
+                      className="text-[#CCD6F6] hover:text-[#64FFDA] transition-colors duration-300 w-8 h-8 rounded-full bg-[#112240]/50 flex items-center justify-center hover:bg-[#112240]" 
                       aria-label="View project repository"
                     >
                       <i className="fab fa-github"></i>
                     </a>
                     <a 
                       href="#" 
-                      className="text-[#CCD6F6] hover:text-[#64FFDA] transition-colors duration-300" 
+                      className="text-[#CCD6F6] hover:text-[#64FFDA] transition-colors duration-300 w-8 h-8 rounded-full bg-[#112240]/50 flex items-center justify-center hover:bg-[#112240]" 
                       aria-label="View live demo"
                     >
                       <i className="fas fa-external-link-alt"></i>
                     </a>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#CCD6F6] mb-2 group-hover:text-[#64FFDA] transition-colors duration-300">
+                <h3 className="text-xl font-bold text-[#CCD6F6] mb-2 group-hover:text-[#64FFDA] transition-colors duration-300 mt-4">
                   {project.name}
                 </h3>
                 <p className="text-[#8892B0] mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mt-4">
                   {project.tech_stack.map((tech, techIndex) => (
-                    <span key={techIndex} className="bg-[#112240] py-1 px-2 rounded text-xs text-[#64FFDA]">
+                    <span key={techIndex} className="bg-[#112240] py-1 px-2 rounded-md text-xs text-[#64FFDA] font-mono">
                       {tech}
                     </span>
                   ))}
                 </div>
+                {project.category && (
+                  <div className="mt-4 pt-4 border-t border-[#64FFDA]/10">
+                    <div className="flex flex-wrap gap-2">
+                      {project.category.map((cat, catIndex) => {
+                        const category = projectCategories.find(c => c.id === cat);
+                        return (
+                          <span key={catIndex} className="bg-[#0A192F] py-1 px-2 rounded-full text-xs text-[#8892B0] border border-[#8892B0]/20">
+                            {category?.name || cat}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           ))}

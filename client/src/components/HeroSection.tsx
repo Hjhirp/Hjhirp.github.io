@@ -1,5 +1,6 @@
 import { portfolioData } from "@/data/portfolioData";
 import { useScrollToSection } from "@/hooks/useScrollToSection";
+import profileImage from "../assets/profile.jpeg";
 
 const HeroSection = () => {
   const { name, location } = portfolioData.personal_information;
@@ -40,10 +41,11 @@ const HeroSection = () => {
           <div className="lg:w-5/12 order-1 lg:order-2 flex justify-center">
             <div className="relative">
               <div className="h-64 w-64 md:h-80 md:w-80 rounded-full overflow-hidden border-4 border-[#64FFDA] shadow-xl shadow-[#64FFDA]/20">
-                {/* Default profile image with placeholder icon since we can't use the provided image */}
-                <div className="h-full w-full bg-[#112240] flex items-center justify-center">
-                  <i className="fas fa-user-circle text-9xl text-[#64FFDA]/50"></i>
-                </div>
+                <img 
+                  src={profileImage} 
+                  alt="Harshal Hirpara" 
+                  className="h-full w-full object-cover"
+                />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-[#112240] py-2 px-4 rounded-lg shadow-lg">
                 <p className="text-[#64FFDA] font-mono text-sm">{location}</p>
